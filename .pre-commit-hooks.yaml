@@ -1,0 +1,6 @@
+-   id: jira-commit-msg-validation 
+    name: Jira commit message validation
+    description: This hook checks whether commit message matches template.
+    entry: check-commit-message
+    language: python
+    stages: [commit-msg]
